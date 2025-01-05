@@ -1,0 +1,60 @@
+Git Starting
+-------------
+git clone <- url ->
+after changes in file
+git status
+git add .
+git commit -m "message here"
+git pull
+git push origin <- branchName ->
+
+git Init
+--------
+git init
+git status
+git add .
+git status
+git commit -m "Add message here!"
+
+git remote add origin (link paste here)
+git remote -v (to verify remote)
+git branch (to check branch)
+git branch -M main (to rename branch)
+git push origin name
+
+git pull origin main --rebase (for conflict issue)
+
+Branches
+---------
+git branch (for all list of branch)
+git checkout <- branchName -> (for switched another branch)
+git checkout -b <- branchName -> (for creating new branch and switched into new branch)
+git branch -d <- branchName -> (for deleting branch)
+
+
+Merging Code
+------------
+git diff <- branchName -> (to compare commits, branches, files and more)
+git merge <- branchName -> (to merge 2 branches)
+OR
+Pull Request (PR)
+git pull origin main
+
+
+Fixing Mistakes
+----------------
+Case 1: staged changes (add kr diya)
+git reset <- fileName -> (removed add files)
+git reset (removed all add files)
+
+Case 2: commited changes (for one commit)
+git reset Head~1
+
+Case 3: commited changes (for many commits)
+git reset <- commitHash ->
+git reset --hard <- commitHash ->
+
+Forking
+--------
+new repository ka code apni account mein lana
+fork is a rough copy.
